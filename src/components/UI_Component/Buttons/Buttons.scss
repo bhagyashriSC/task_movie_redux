@@ -1,0 +1,18 @@
+
+@import '../../../common/colors/colors';
+
+.transperent-btn{
+    border: 1px solid $white !important;
+    padding: 10px 25px !important;
+    border-radius: 25px !important;
+    color:$white !important;
+    background-color: transparent !important;
+    background: transparent !important;
+}
+.transperent-btn:hover{
+    border: 1px solid $yellow !important;
+    padding: 10px 25px !important;
+    border-radius: 25px !important;
+    color:$yellow !important;
+    
+}

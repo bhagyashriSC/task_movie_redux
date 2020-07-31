@@ -1,0 +1,41 @@
+[{
+    "movieId": 1,
+    "movieName": "Minions Movie",
+    "category": "cartoon",
+    "language": "english",
+    "releaseDate": "2017",
+    "duration": "1hr 30 min",
+    "img": "https://static.toiimg.com/thumb/msid-61243561,width-219,height-317,imgsize-31174/61243561.jpg",
+    "rating": 3
+},
+{
+    "movieId": 2,
+    "movieName": "Lion King",
+    "category": "cartoon",
+    "language": "english",
+    "releaseDate": "",
+    "duration": "2hr 30 min",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/81aLWmKrNVL._RI_.jpg",
+    "rating": 4
+},
+{
+    "movieId": 3,
+    "movieName": "Frozen 2 ",
+    "category": "cartoon",
+    "language": "hindi",
+    "releaseDate": "",
+    "duration": "2hr 20 min",
+    "img": "https://i.ytimg.com/vi/_ry5j-XE1Q4/maxresdefault.jpg",
+    "rating": 4
+},
+{
+    "movieId": 4,
+    "movieName": "Mission Mangal",
+    "category": "drama",
+    "language": "Hindi",
+    "releaseDate": "2019",
+    "duration": "3hr 00 min",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTX8HE913dselsxoNMFF4ItRfv-n4GOx6PqqA&amp;usqp=CAU",
+    "rating": 5
+}
+]

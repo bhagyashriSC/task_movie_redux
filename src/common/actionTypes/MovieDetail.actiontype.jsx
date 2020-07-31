@@ -1,0 +1,1 @@
+export const ADD_MOVIEDETAILS = "ADD_MOVIEDETAILS";

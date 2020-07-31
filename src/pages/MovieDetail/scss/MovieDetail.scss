@@ -1,0 +1,81 @@
+/* Made with love by Mutiullah Samim*/
+@import '../../../common/colors/colors';
+.movie_container{
+    .container{
+      background-color:$transparent;
+      height: 100%;
+    }
+   h2{
+    color: $creamy-white !important;
+   }
+   h2:after{
+    background: linear-gradient(to right, $white 0%, $off-white 84%) !important;
+   }
+   .movie_title{
+    color: $dark-pink;
+    font-weight: 900;
+    font-style: italic;
+    padding-bottom: 20px;
+   }
+   .text_span_color{
+    color: $white;
+    background: $midean-pink;
+    padding: 0px 7px 2px 7px;
+    border-radius: 5px;
+    margin-right: 5px;
+   }
+   .small-title{
+       color: $orange;
+       text-transform: capitalize;
+       font-weight: 900;
+       font-size: 17px;
+       border-bottom: 1px solid $median-gray;
+       padding-bottom: 5px;
+       font-style: italic;
+   }
+   .small-title span{
+    color: $creamy-white;
+    text-transform: capitalize; 
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+.transperent-btn{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    border-radius: 25px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+  .banner-sec img{ width: 100%; height: 500px;}
+  
+ .copy-text{
+     color: $white;
+ }
+  .banner-text{width:70%; position:absolute; bottom:40px; padding-left:20px; color: $white}
+  .banner-text h2:after{content:" "; width:100px; height:5px; background:$white; display:block; margin-top:20px; border-radius:3px;}
+  a {
+      color: $yellow;
+  }
+  a:hover {
+    color: $dark-yellow;
+}
+  $breakpoint-tablet: 775px;
+  @media (max-width: $breakpoint-tablet) {
+      .container{height: auto; }
+      .login-block{
+          height: auto !important;
+          position: relative;
+      }
+      .banner-sec img{ width: 100%; height: auto;}
+      .banner-text{
+          width: 95%;
+          position: absolute;
+          bottom: 100%;
+          padding-left: 10px; 
+          color: $white;
+      }
+  }
+} 
+
